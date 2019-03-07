@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HotFragment">
+    <choi.ccb.com.fragmenttabhostdemo.view.DoubleScrollViewLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <choi.ccb.com.fragmenttabhostdemo.view.InterceptEventRelativLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <choi.ccb.com.fragmenttabhostdemo.video.VideoPlayerView
+                android:id="@+id/vv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </choi.ccb.com.fragmenttabhostdemo.view.InterceptEventRelativLayout>
+        <choi.ccb.com.fragmenttabhostdemo.view.TopBottomMonitorScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:background="@color/colorAccent"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:background="@color/colorPrimary"
+                    />
+            </LinearLayout>
+        </choi.ccb.com.fragmenttabhostdemo.view.TopBottomMonitorScrollView>
+    </choi.ccb.com.fragmenttabhostdemo.view.DoubleScrollViewLayout>
+
+
+
+</FrameLayout>
